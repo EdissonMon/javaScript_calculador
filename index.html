@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Calculator</title>
 </head>
+
 <body>
   <div class="micalculadora">
     <form name="calculadora" id="calculadora">
@@ -37,13 +39,17 @@
         <input type="button" id="porc" value="%" onclick="valor(document.getElementById('porc').value)">
       </div>
       <!--Borrar & Resultado-->
-        <div class="resultado">
-          <input type="button" id="igual" value="=" onclick="calResultado()">
-          <button type="button" id="borrar" value="" onclick="borrarDisplay(document.getElementById('borrar').value)">C</button>
-        </div>
+      <div class="resultado">
+        <input type="button" id="igual" value="=" onclick="calResultado()">
+        <button type="button" id="borrar" value=""
+          onclick="borrarDisplay(document.getElementById('borrar').value)">C</button>
+      </div>
     </form>
   </div>
 
+  <!-- Others -->
+
   <script src="script.js"></script>
 </body>
+
 </html>
