@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F1953C;
+}
+
+body div.micalculadora{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin: 0 auto;
+    background-color: #025460;
+    border-radius: 10px;
+}
+
+div input[type='button'], button{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+div input[type='text']{
+    height: 40px;
+    width: 200px;
+    background-color: #F2EBD5;
+    color: black;
+    padding: 12px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px ;
+    border: 2px solid #777;
+}
+
+div.resultado input, div.resultado button{
+    height: 40px;
+    width: 90px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+} 
+
+div.resultado button{
+    background-color: red;
+    color: white;
+    border: 1px solid #A91225;
+}
+
+div.resultado input{
+    background-color: #F24607;
+    color: white;
+    border: 1px solid #FF7300;
+}
+
+#suma, #resta, #mult, #div, #porc{
+    background-color: #45857C;
+    color: white;
+    border: 1px solid #777;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
